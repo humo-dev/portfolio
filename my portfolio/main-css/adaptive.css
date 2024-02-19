@@ -1,0 +1,183 @@
+@media only screen and (max-width:720px) {
+    .header{
+        width: 760px;
+        background: #000000;
+    }
+
+    .main{
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .header-logo{
+        padding-top: 30px;
+        padding-left: 270px;
+    }
+
+    .my-img img{
+        display: none;
+    }
+
+    .text-header{
+        padding-left: 80px;
+    }
+
+    .text-header h1{
+        width: 550px;
+    }
+
+    .text-header h3{
+        width: 450px;
+    }
+
+    .header__burger-btn{
+        display: block;
+    }
+
+    .menu-list{
+        position: absolute;
+        left: -350px;
+        top: 0;
+        background-color: #141316;
+        width: 290px;
+        padding: 75px 20px 20px 20px ;
+        transition: transform .5s;
+    }
+
+    .header.open .menu-list{
+        transform: translateX(100%);
+    }
+
+    ul{
+        display: block;
+    }
+
+     ul li{
+        margin-left: 0;
+    }
+
+    ul li a{
+       font-size: 31px;
+       display: block;
+       padding: 20px 0;
+    }
+
+    .header-2{
+        width: 760px;
+        height: 170vh;
+        background: #000000;
+    }
+
+    .header-text-2{
+        padding-left: 150px;
+    }
+
+    .tople{
+        display: block;
+    }
+
+    .text-work-1 h1{
+        padding-left: 120px;
+    }
+
+    .work-num-1{
+        margin-left: 50px;
+    }
+
+    .work-2{
+        margin-top: 260px;
+    }
+
+    .text-work-2 h1{
+        padding-left: 80px;
+    }
+
+    .work-num-2{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .work-3{
+        margin-top: 260px;
+    }
+
+    .work-num-3{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .text-work-3 h1{
+        padding-left: 120px;
+        padding-top: 30px;
+    }
+
+    .header-3{
+       height: 500px;
+    }
+
+    .two-pier{
+        display: block;
+    }
+
+    .first-pier h1{
+        padding-left: 0;
+        padding-left: 20px;
+    }
+
+    .first-pier p{
+        padding-left: 0;
+        margin-left: 20px;
+    }
+
+    .first-pier h4{
+        padding-top: 90px;
+    }
+
+    .header-4{
+        margin-top: 600px;
+        width: 700px;
+        height: 1050px;
+    }
+
+    .My-skillset{
+        display: block;
+    }
+
+    .text-skill{
+        padding-left: 170px;
+    }
+
+    .text-skill p{
+       display: none;
+    }
+
+    .set-1{
+        display: block;
+    }
+
+    .first-set{
+        padding-left: 30px;
+    }
+
+    .second-set{
+        margin-left: 0;
+        padding-top: 30px;
+    }
+
+    .set-2{
+        display: block;
+    }
+
+    .threed-set{
+        padding-left: 30px;
+    }
+
+    .four-set{
+        margin-left: 0;
+        padding-top: 30px;
+    }
+
+    .four-img img{
+        width: 40px;
+    }
+}
